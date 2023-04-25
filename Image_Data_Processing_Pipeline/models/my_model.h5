@@ -1,0 +1,6 @@
+python
+import tensorflow as tf
+import os
+
+model_path = os.path.join('Image_Data_Processing_Pipeline', 'models', 'my_model.h5')
+model = tf.keras.models.load_model(model_path)
