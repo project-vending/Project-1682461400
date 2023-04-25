@@ -1,0 +1,7 @@
+
+file_path = 'Image_Data_Processing_Pipeline/data/raw_data.txt'
+
+with open(file_path) as f:
+    contents = f.read()
+
+print(contents)
