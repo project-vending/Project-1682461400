@@ -1,0 +1,10 @@
+
+import os
+
+file_path = 'Image_Data_Processing_Pipeline/processed/processed_data.txt'
+
+if os.path.exists(file_path):
+    with open(file_path, 'a') as f:
+        f.write('New processed data!')
+else:
+    print(f"Error: {file_path} doesn't exist")
